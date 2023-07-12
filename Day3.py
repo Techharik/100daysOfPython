@@ -89,28 +89,28 @@ print('Conditional statement , logical Operator , code blocks and Scope')
 
 # Tresure Game:
 
-print('Welcoe to the Treasure Game')
+# print('Welcoe to the Treasure Game')
 
-direction = input('left of right? ')
+# direction = input('left of right? ')
 
-if direction == 'right':
-    print('Game Over')
-elif direction == 'left':
-    move = input('swim of wait? ')
-    if move == 'swim':
-        print('Game over')
-    elif move == 'wait':
-        print('you reached the island')
-        color = input('Choose your color red,yellow,green ')
-        if color == 'red':
-            print('You set the fire to island, you dies')
-        elif color == 'yellow':
-            print('You won the Game')
-        elif color == 'green':
-            print('You are entered to monster room , you died')
-        else:
-            print('Invalid Input')
-    else:
-        print('Invalid Input')
-else:
-    print('Invalid direction')
+# if direction == 'right':
+#     print('Game Over')
+# elif direction == 'left':
+#     move = input('swim of wait? ')
+#     if move == 'swim':
+#         print('Game over')
+#     elif move == 'wait':
+#         print('you reached the island')
+#         color = input('Choose your color red,yellow,green ')
+#         if color == 'red':
+#             print('You set the fire to island, you dies')
+#         elif color == 'yellow':
+#             print('You won the Game')
+#         elif color == 'green':
+#             print('You are entered to monster room , you died')
+#         else:
+#             print('Invalid Input')
+#     else:
+#         print('Invalid Input')
+# else:
+#     print('Invalid direction')
