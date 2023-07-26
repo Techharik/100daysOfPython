@@ -58,22 +58,26 @@ import my_module
 # rock paper scissor game;
 # 0 1 2
 
-val = ['R', 'P', 'S']
+# val = ['R', 'P', 'S']
 
-your_num = int(input('What is your Number 0,1 or 2?'))
+# your_num = int(input('What is your Number 0,1 or 2?'))
 
-com_number = random.randint(0, 2)
+# com_number = random.randint(0, 2)
 
-if your_num <= 2 and com_number <= 2:
-    if your_num == com_number:
-        print(f' Draw,y{val[your_num]} ,c{val[com_number]}')
-    elif your_num == 0 and com_number == 1:
-        print(f'Computer win,y{val[your_num]} ,c{val[com_number]}')
-    elif your_num == 1 and com_number == 2:
-        print(f'Computer win,y{val[your_num]} ,c{val[com_number]}')
-    elif your_num == 2 and com_number == 0:
-        print(f'Computer win,y{val[your_num]} ,c{val[com_number]}')
-    else:
-        print(f'You win,y{val[your_num]} ,c{val[com_number]}')
-else:
-    print('Invalid Syntax')
+# if your_num <= 2 and com_number <= 2:
+#     if your_num == com_number:
+#         print(f' Draw,y{val[your_num]} ,c{val[com_number]}')
+#     elif your_num == 0 and com_number == 1:
+#         print(f'Computer win,y{val[your_num]} ,c{val[com_number]}')
+#     elif your_num == 1 and com_number == 2:
+#         print(f'Computer win,y{val[your_num]} ,c{val[com_number]}')
+#     elif your_num == 2 and com_number == 0:
+#         print(f'Computer win,y{val[your_num]} ,c{val[com_number]}')
+#     else:
+#         print(f'You win,y{val[your_num]} ,c{val[com_number]}')
+# else:
+#     print('Invalid Syntax')
+
+
+
+
