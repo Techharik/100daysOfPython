@@ -17,6 +17,6 @@
 city = input('What is your city Name?')
 pet = input ('What is you pet Name?')
 
-Band = city +' '+ pet
+Band = city +' '+ pet;
 
 print('Your BandName is '+ Band)
