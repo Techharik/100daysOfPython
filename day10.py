@@ -53,7 +53,7 @@ continue_opp = True
 final_result = 0
 
 
-num1 = int(input('What is your first Number ? '))
+num1 = float(input('What is your first Number ? '))
 
 while continue_opp:
 
@@ -64,7 +64,7 @@ while continue_opp:
 
     run_operation = operations[choosen_operator]
 
-    num2 = int(input('What is your second number ?'))
+    num2 = float(input('What is your second number ?'))
 
     result = run_operation(num1, num2)
 
