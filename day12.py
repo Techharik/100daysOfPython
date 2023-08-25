@@ -90,6 +90,7 @@ def play():
             else:
                 print('Bye')
                 game_ends=True
+                return
 
 
 
